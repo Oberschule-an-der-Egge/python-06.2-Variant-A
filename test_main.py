@@ -31,8 +31,8 @@ class TestBasic:
 
     def test_clone_chores(self):
         original, clone = main.magic_hammock(homer)
-        assert original.do_chore() == 'Nope!'
-        assert clone.do_chore() == 'Ok!'
+        assert original.do_chores() == 'Nope!'
+        assert clone.do_chores() == 'Ok!'
 
 
 class TestBonus:
