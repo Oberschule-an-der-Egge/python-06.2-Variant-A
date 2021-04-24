@@ -18,5 +18,12 @@ Schaut euch die ersten Minuten der Simpons Episode "Treehouse of Horror XIII" an
   
 ## Bonus
 
+Fair Warning: Die Bonusaufgaben sind dieses Mal richtig tricky. Die Lösung der o.g. Aufgaben ist ausreichend.
+
 - Die magische Matratze kann mehr als ein Homer-Objekt annehmen und gibt eine entsprechende Zahl an Klonen zurück
 - Die magische Matratze kann auch ein Flanders-Objekt annehmen (und entsprechende Klone erzeugen!)
+
+## Automatisches Testen
+Wir probieren automatisches Testen aus. Damit bekommt ihr bei jedem Push eine sofortige Rückmeldung, ob euer Code die Anforderungen erfüllt.
+
+**Wichtig:** Ihr müsst euren Code in `main.py` schreiben, bitte keine eigenen Dateien anlegen.
