@@ -1,0 +1,26 @@
+    name: Autograding 
+    
+    on: [push]
+
+    jobs:
+      first_job:
+        name: Basic Test (class Homer, do_chores, magic_hammock)
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+          - name: First Autograde Step
+            uses: education/autograding@v1
+            
+      second_job:
+        name: Bonus Test
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+          - uses: actions/setup-python@v2
+            with:
+              python-version: 3.8
+          - run: |
+              python -m pip install --upgrade pip
+              pip install pytest
+          - run: |
+              pytest test_main.py::TestBonus
