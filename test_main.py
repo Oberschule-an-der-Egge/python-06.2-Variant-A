@@ -37,8 +37,29 @@ class TestBasic:
 
 class TestBonus:
 
-    def test_hammock_returns_multiples(self):
+    def test_hammock_returns_multiple_homers(self):
         result = main.magic_hammock(homer, homer2, homer3, homer4, homer5)
         assert len(result) == 10
+        assert homer in result
         for element in result:
             assert isinstance(element, main.Homer)
+    
+    def test_hammock_returns_flanders(self):
+        flanders = main.Flanders()
+        result = main.magic_hammock(flanders)
+        
+        assert len(result) == 2
+        assert isinstance(result[0], main.Flanders)
+        assert result[0] is flanders
+        assert isinstance(result[1], main.Flanders)
+        
+    def test_hammock_returns_multiple_flanders(self):
+        flanders = main.Flanders()
+        flanders2 = main.Flanders()
+        flanders3 = main.Flanders()
+        result = main.magic_hammock(flanders, flanders2, flanders3)
+        assert len(result) == 6
+        assert flanders in result
+        for element in result:
+            assert isinstance(element, main.Flanders)
+        
