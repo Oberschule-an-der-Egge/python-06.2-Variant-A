@@ -18,5 +18,5 @@ Schaut euch die ersten Minuten der Simpons Episode "Treehouse of Horror XIII" an
   
 ## Bonus
 
-- Die magische Matratze kann mehr als ein Homer-Objekt annehmen
+- Die magische Matratze kann mehr als ein Homer-Objekt annehmen und gibt eine entsprechende Zahl an Klonen zurück
 - Die magische Matratze kann auch ein Flanders-Objekt annehmen (und entsprechende Klone erzeugen!)
