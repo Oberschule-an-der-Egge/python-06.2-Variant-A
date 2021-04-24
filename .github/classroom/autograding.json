@@ -3,7 +3,7 @@
     {
       "name": "Test class Homer",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_class_homer",
+      "run": "pytest test_main.py::TestBasic::test_class_homer",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Test do_chores()",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_class_homer_do_chores",
+      "run": "pytest test_main.py::TestBasic::test_class_homer_do_chores",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
      {
       "name": "Test hammock returns list",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_hammock_returns_list",
+      "run": "pytest test_main.py::TestBasic::test_hammock_returns_list",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Test hammock returns clone",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_hammock_returns_clone",
+      "run": "pytest test_main.py::TestBasic::test_hammock_returns_clone",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Test hammock returns clone",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_hammock_returns_clone",
+      "run": "pytest test_main.py::TestBasic::test_hammock_returns_clone",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Test hammock returns clone",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_hammock_returns_clone",
+      "run": "pytest test_main.py::TestBasic::test_hammock_returns_clone",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "Test clone chores",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py::BasicTest::test_clone_chores",
+      "run": "pytest test_main.py::TestBasic::test_clone_chores",
       "input": "",
       "output": "",
       "comparison": "included",
